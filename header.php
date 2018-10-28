@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TutorsHub</title>
+       
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      
+	<style type="text/css">
+		.box{ 
+                    
+			
+                    background:  #f2f2f2;
+			padding: 10px;
+		}
+	</style>
+</head>
+<body> 
+
+<div class="container"> 
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+
+        </button>
+        <a class="navbar-brand" href="index.php">TUTORSHUB</a>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+  
+              <li><a href="view_all_tutors.php">Tutors here! </a></li>
+              
+          <li><a href="form.php">Tutor Registration</a></li> 
+        
+        
+          <li><a href="edit.php">Edit Info </a></li>
+            <li><a href="Update_Delete_tutor.php">Delete Account</a></li>
+            
+          <li><a href="studentform.php">Student Registration </a></li>
+         
+         
+        </ul>
+        
+      </div><!--/.nav-collapse -->
+    </div><!--/.container-fluid -->
+  </nav> 
+</div>
